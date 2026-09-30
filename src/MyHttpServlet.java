@@ -10,7 +10,7 @@ public class MyHttpServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request,
-                         HttpServletResponse response)
+            HttpServletResponse response)
             throws ServletException, IOException {
 
         response.setContentType("text/html");
